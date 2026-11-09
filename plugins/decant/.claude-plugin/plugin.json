@@ -1,0 +1,18 @@
+{
+  "name": "decant",
+  "description": "Pour a Claude Code session into a resumable OpenCode session, keeping history, tool calls and context, and proving the result in a throwaway OpenCode before touching the real one.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Aldo Suhartono Putra",
+    "url": "https://github.com/aldhosutra"
+  },
+  "homepage": "https://github.com/aldhosutra/decant",
+  "license": "MIT",
+  "keywords": [
+    "session",
+    "migration",
+    "handoff",
+    "claude-code",
+    "opencode"
+  ]
+}

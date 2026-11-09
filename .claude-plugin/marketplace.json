@@ -1,0 +1,44 @@
+{
+  "name": "aldhosutra",
+  "owner": {
+    "name": "Aldo Suhartono Putra",
+    "url": "https://github.com/aldhosutra"
+  },
+  "metadata": {
+    "description": "Agent skills by aldhosutra. aldhosutra/supervise, aldhosutra/loopa, aldhosutra/experso and aldhosutra/decant publish this same marketplace, so adding any of the repos gives you every plugin."
+  },
+  "plugins": [
+    {
+      "name": "decant",
+      "source": "./plugins/decant",
+      "description": "Pour a Claude Code session into a resumable OpenCode session, keeping history, tool calls and context, and proving the result in a throwaway OpenCode before touching the real one."
+    },
+    {
+      "name": "supervise",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aldhosutra/supervise.git",
+        "path": "plugins/supervise"
+      },
+      "description": "Supervise other Claude Code or opencode sessions running in tmux until their goals are met — keep them moving, review what they produced, and escalate only what needs a human."
+    },
+    {
+      "name": "loopa",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aldhosutra/loopa.git",
+        "path": "plugins/loopa"
+      },
+      "description": "Loopa (read \"lupa\": forget hand-editing loops). Turn raw footage into many distinct short videos that loop seamlessly in picture and sound: music-first cyclic soundtrack, AI slow motion, 15 viral formats, Indonesian dubbing."
+    },
+    {
+      "name": "experso",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aldhosutra/experso.git",
+        "path": "plugins/experso"
+      },
+      "description": "Expert from persona: turn a creator's public profile into agent skills. Downloads and transcribes their posts, extracts every piece of expertise, plans skills by the output they produce, and writes SKILL.md files with linked references and evidence. Merges overlapping skills across creators, or improves your own."
+    }
+  ]
+}
